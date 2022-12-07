@@ -7,15 +7,17 @@
 #about{
     display: flex;
 }
-#about .image{
+#about .left{
     width: 40%;
 }
 #about .right{
     width: 60%;
 }
-#about .image img{
+#about .left img{
     background-size: cover;
     height: 100vh;
+    position: fixed;
+    width: 38%;
 }
 #about li{
     list-style: none;
@@ -29,6 +31,7 @@
     font-size: 40px;
     color: gray;
     padding-top: 10px;
+    padding-right: 20px;
 }
 #about .content{
     text-align: center;
@@ -43,9 +46,70 @@
 #about .content a{
     text-decoration: none;
     color: black;
-    background-color: rgba(128, 128, 128, 0.579);
+    background-color: rgba(128, 128, 128, 0.104);
     padding: 15px 25px;
+}
+#about .content a:hover{
+    background-color: gray;
 }
 #about .content{
     line-height: 80px;
+}
+#about .portfolio h4{
+    font-size: 35px;
+    color: grey;
+    padding-bottom: 25px;
+}
+#about .portfolio{
+    margin-top: 180px;
+    padding: 10px 0;
+}
+#about .image1{
+    width: 50%;
+}
+#about .image2{
+    width: 50%;
+    margin: 0 10px;
+}
+#about .image{
+    display: flex;
+}
+.wedding{
+    height: 280px;
+}
+.water{
+    height: 424px;
+}
+.rocks{
+    height: 765px;
+    margin-top: 10px;
+}
+.chef{
+    height: 284px;
+    margin-top: 10px;
+}
+.wedding1{
+    height: 268px;
+    margin-top: 10px;
+}
+.boat{
+    height: 297px;
+    margin-top: 10px;
+}
+.p6{
+    height: 325px;
+    margin-top: 10px;
+}
+.about h4{
+    font-size: 35px;
+    color: grey;
+    padding: 8rem 0 3rem;
+}
+.about p{
+    line-height: 1.5rem;
+}
+.skills h4{
+    font-size: 35px;
+    color: grey;
+    padding: 3rem 0;
 }
