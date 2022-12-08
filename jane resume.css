@@ -121,3 +121,29 @@
 #right .download a:hover{
     background-color: gray;
 }
+#right .my h1{
+    margin-top: 20px;
+    padding: 2.5rem 0;
+    color: grey;
+}
+#right .review img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#right .review, .text{
+    display: flex;
+}
+#right .right{
+    padding: 20px 4px;
+    font-size: 12px;
+}
+#right .right p{
+    padding: 1rem 0;
+    font-size: 20px;
+}
+#right .right .edit{
+    margin-left: 23px;
+    color: gray;
+    font-size: 22px;
+}
