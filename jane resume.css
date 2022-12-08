@@ -103,3 +103,21 @@
     font-size: 25px;
     color: white;
 }
+#right .data{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: gray;
+    margin: 50px 0;
+    padding: 45px;
+    color: white;
+}
+#right .download a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.104);
+    padding: 15px 25px;
+}
+#right .download a:hover{
+    background-color: gray;
+}
