@@ -79,7 +79,8 @@
     width: 446px;
 }
 .water{
-    height: 424px;
+    height: 479px;
+    width: 424px;
 }
 .rocks{
     height: 765px;
@@ -95,7 +96,7 @@
     margin-top: 10px;
 }
 .boat{
-    height: 297px;
+    height: 300px;
     margin-top: 10px;
 }
 .p6{
@@ -110,8 +111,54 @@
 .about p{
     line-height: 1.5rem;
 }
+.skills{
+    margin-top: 70px;
+}
 .skills h4{
     font-size: 35px;
     color: grey;
-    padding: 3rem 0;
+    padding-bottom: 35px;
+}
+.graph{
+    padding-bottom: 20PX;
+}
+.skills h3{
+    padding-bottom: 20px;
+    color: grey;
+}
+.photo{
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+.photo p{
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    width: 90%;
+    height: 18px;
+    padding: 6px 425px;
+}
+.design{
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+.design p{
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    width: 87%;
+    height: 36px;
+    padding: 6px 344px;
+}
+.shop{
+    background-color: whitesmoke;
+    margin-right: 20px;
+}
+.shop p{
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    width: 80%;
+    height: 36px;
+    padding: 6px 275px;
 }
