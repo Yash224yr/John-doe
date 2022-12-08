@@ -147,3 +147,49 @@
     color: gray;
     font-size: 22px;
 }
+#right .diff h1{
+    margin-top: 20px;
+    padding: 2.5rem 0;
+    color: grey;
+}
+#right .prices{
+    padding-bottom: 3rem;
+}
+#right .prices .advantage{
+    display: flex;
+}
+#right .advantage .basic, .pro{
+    width: 50%;
+    border: 1px solid black;
+}
+#right .advantage .basic{
+    margin-right: 10px;
+}
+#right .advantage .pro{
+    margin-left: 10px;
+}
+#right .advantage .basic h1{
+    background-color: grey;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+}
+#right .advantage .pro{
+    background-color: black;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+#right .advantage h2{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    color: gray;
+    padding: 30px;
+}
+
