@@ -223,6 +223,24 @@
 #right .advantage a:hover{
     color: brown;
 }
-
-
+#right .contact{
+    padding-bottom: 5rem;
+}
+#right .contact .con h1{
+    padding: 3rem 0;
+    color: gray;
+}
+#right .join{
+    display: flex;
+}
+#right .join h1{
+    margin-left: 25px;
+    font-size: 18px;
+    padding: 20px;
+    color: gray;
+}
+#right .join h2{
+    font-size: 34px;
+    color: gray;
+}
 
