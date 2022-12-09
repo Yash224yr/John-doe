@@ -177,7 +177,7 @@
     color: white;
     padding-right: 10px;
 }
-#right .advantage .pro{
+#right .advantage .pro h1{
     background-color: black;
     height: 113px;
     display: flex;
@@ -190,6 +190,39 @@
     text-align: center;
     border-bottom: 1px solid grey;
     color: gray;
-    padding: 30px;
+    padding: 18px;
+    font-size: 18px;
 }
+#right .advantage .rate{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    color: gray;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 3rem;
+
+}
+#right .advantage .rate p:first-child{
+    font-size: 42px;
+}
+#right .advantage a{
+    text-decoration: none;
+    background-color: white;
+    padding: 7px;
+    color: black;
+}
+#right .advantage h3{
+    background-color: whitesmoke;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+}
+#right .advantage a:hover{
+    color: brown;
+}
+
+
 
