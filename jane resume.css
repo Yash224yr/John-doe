@@ -22,9 +22,10 @@
 #right .menu a{
     font-size: 55px;
     color: gray;
-    display: flex;
-    justify-content: end;
     text-decoration: none;
+    position: fixed;
+    top: 2%;
+    right: 0;
 }
 #right .info{
     text-align: center;
