@@ -53,6 +53,12 @@
 #right .image{
     display: flex;
 }
+#right .image1{
+    margin-right: 5px;
+}
+#right .image2{
+    margin-left: 5px;
+}
 #right .image img{
     width: 420px;
     margin: 5px;
