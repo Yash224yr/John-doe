@@ -261,13 +261,16 @@
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
-    background-color: gray;
+    background-color: whitesmoke;
     color: black;
     height: 39px;
     padding: 15px;
     width: 11.5rem;
     height: 46px;
     text-transform: uppercase;
+}
+#right .form a:hover{
+    background-color: gray;
 }
 #right .bottom{
     margin-top: 10rem;
