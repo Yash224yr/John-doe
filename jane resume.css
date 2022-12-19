@@ -33,19 +33,20 @@
   align-items: center;
   padding: 11rem 0;
   flex-direction: column;
-  line-height: 5rem;
 }
 #right .info h1{
     font-size: 5rem;
 }
 #right .info p{
     font-size: 1.2rem;
+    margin-top: 2rem;
 }
 #right .info a{
     text-decoration: none;
     color: black;
     background-color: rgba(128, 128, 128, 0.104);
-    padding: 0 40px;
+    padding: 20px 40px;
+    margin-top: 2rem;
 }
 #right .info a:hover {
     background-color: gray;
