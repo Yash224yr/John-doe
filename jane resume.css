@@ -25,24 +25,27 @@
     text-decoration: none;
     position: fixed;
     top: 2%;
-    right: 0;
+    right: 3%;
 }
 #right .info{
-    text-align: center;
-    padding: 10rem;
-    line-height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11rem 0;
+  flex-direction: column;
+  line-height: 5rem;
 }
 #right .info h1{
-    font-size: 100px;
+    font-size: 5rem;
 }
 #right .info p{
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 #right .info a{
     text-decoration: none;
     color: black;
     background-color: rgba(128, 128, 128, 0.104);
-    padding: 15px 25px;
+    padding: 0 40px;
 }
 #right .info a:hover {
     background-color: gray;
